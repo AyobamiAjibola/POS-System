@@ -3,9 +3,9 @@ include('includes/db.php');
 include('includes/session.php');
 $system_title = "Restuarant";
 if( isset( $_SESSION['userSession'] )){
-	 header("Location:dashboard");	
+	 header("Location:dashboard");
 }
- 	
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,13 +13,13 @@ if( isset( $_SESSION['userSession'] )){
 <meta charset="utf-8">
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta name="description" content="<?php echo $system_title; ?>" />
 	<meta name="author" content="<?php echo $system_title; ?>" />
 
     <title>Login | <?php echo $system_title; ?></title>
-	
+
 		<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
     <!-- Bootstrap core CSS     -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
